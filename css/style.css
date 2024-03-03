@@ -1,0 +1,148 @@
+/* Jetbrains mono font */
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+main {
+    padding: 4% 8%;
+}
+
+input, textarea {
+    font-family: "JetBrains Mono", monospace;
+    width: 95%;
+    height: 5vh;
+    border: none;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+}
+
+textarea {
+    font-size: 0.85rem;
+    padding-top: 3%;
+    min-width: 95%;
+    max-width: 95%;
+    min-height: 30vh;
+    max-height: 61vh;
+}
+
+hr {
+    border: 0.1rem dashed #d8d8d8;
+    margin: 0%;
+}
+
+table  {
+    font-family: "JetBrains Mono", monospace;
+    border: 0.2rem solid #f8f7f8;
+    border-radius: 1rem;
+    margin-left: 10%;
+    width: 55%;
+}
+
+th {
+    padding: 1%;
+}
+
+td {
+    text-align: center;
+    border-top: 0.1rem dashed #d8d8d8;
+    word-wrap: break-word;
+}
+
+.nav {
+    font-family: "JetBrains Mono", monospace;
+    background-color: #000239;
+    color: white;
+    padding: 1.5% 10.5%;
+}
+
+.task-form {
+    font-family: "JetBrains Mono", monospace;
+    display: block;
+    text-align: center;
+    border: 0.2rem solid #f8f7f8;
+    border-radius: 1rem;
+    padding: 2%;
+    width: 30%;
+}
+
+.blue-button {
+    background-color: #5ba6ff;
+    border: 0.2rem solid #5ba6ff;
+    color: white;
+    margin: 2%;
+    padding: 1.5% 5%;
+    border-radius: 0.5rem;
+}
+
+.blue-button:hover {
+    background-color: white;
+    border: 0.2rem solid #5ba6ff;
+    color: black;
+    transition-duration: 0.4s;
+}
+
+.success, .warning, .error {
+    margin: 0 0 5% 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.success {
+    color: #75cb68;
+}
+
+.warning {
+    color: #dc8c68;
+}
+
+.error {
+    color: #de3762;
+}
+
+.inline-content {
+    display: flex;
+    align-items: start;
+}
+
+.icon {
+    width: 22%;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    padding: 5%;
+}
+
+.icon-green {
+    background-color: #75cb68;
+    border: 0.2rem solid #75cb68;
+}
+
+.icon-green:hover {
+    background-color: white;
+    border: 0.2rem solid #75cb68;
+    transition-duration: 0.4s;
+}
+
+.icon-red {
+    background-color: #e23c67;
+    border: 0.2rem solid #e23c67;
+    padding: 4% 5%;
+    margin-top: 5%;
+}
+
+.icon-red:hover {
+    background-color: white;
+    border: 0.2rem solid #e23c67;
+    transition-duration: 0.4s;
+}
